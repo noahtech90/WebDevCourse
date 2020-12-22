@@ -11,15 +11,42 @@
 </head>
 
 <body>
-    <table>
-        <tr>
-            <th>Table Header</th>
-        </tr>
-        <tr>
-            <td>Table Content</td>
-        </tr>
+    <table class="table">
+        <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Year and Founder</th>
+
+            </tr>
+            <tr>
+                <th>Founded</th>
+                <th>Leader</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mongol Empire</td>
+                <td>1206 AD</td>
+                <td>Genghis Khan</td>
+            </tr>
+            <tr>
+                <td>Rome</td>
+                <td>753 BC</td>
+                <td>Augustus Ceaser</td>
+            </tr>
+        </tbody>
     </table>
     <script src="js/main.js"></script>
 </body>
+
+
+<!-- Table Notes
+
+thead, tbody, tfoot
+semantic elements that help make table more readable 
+
+rowspan, colspan: 
+-->
+
 
 </html>
