@@ -10,14 +10,15 @@
 <body>
     <h1>Forms Demo</h1>
     <form action="https://www.reddit.com/search/">
+        <label for="search">Search Here</label>
+        <input id="search" type="text" name="q" placeholder="Enter Search Here">
+
+        </p>
         <p>
-            <label for="search">Search Here</label>
+            <input type="password">
             <label for="password">Enter your Password</label>
         </p>
-        <p>
-            <input id="search" type="text" placeholder="Enter Search Here">
-            <input type="password">
-        </p>
+
         <p>
             <input type="color">
         </p>
@@ -36,5 +37,18 @@ Button in form automatically submit the form unless expicitily told not to
 
 
 -->
+
+<!-- Name
+
+Name of input details how the input will send infromation to the server
+
+Example:
+
+<input type="text" name="username"> Enter username>
+
+this would send through form as form action + name=(your data)
+
+-->
+
 
 </html>
