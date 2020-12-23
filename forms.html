@@ -10,12 +10,31 @@
 <body>
     <h1>Forms Demo</h1>
     <form action="https://www.reddit.com/search/">
-        <input type="text" placeholder="Enter Search Here">
-        <input type="password">
-        <input type="color">
-        <input type="file">
+        <p>
+            <label for="search">Search Here</label>
+            <label for="password">Enter your Password</label>
+        </p>
+        <p>
+            <input id="search" type="text" placeholder="Enter Search Here">
+            <input type="password">
+        </p>
+        <p>
+            <input type="color">
+        </p>
+        <!-- Default is to submit the form when it is inside of a form -->
+        <button>Enter Here</button>
+        <!-- Button below does not actually submit the form -->
+        <button type="button">Enter Here</button>
+        <!-- This also works but a bit clunkier to use -->
+        <input type="submit">
     </form>
 
 </body>
+
+<!-- Button
+Button in form automatically submit the form unless expicitily told not to
+
+
+-->
 
 </html>
