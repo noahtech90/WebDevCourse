@@ -28,8 +28,36 @@
         <button type="button">Enter Here</button>
         <!-- This also works but a bit clunkier to use -->
         <input type="submit">
+    </form>
 
-        <input type="checkbox">
+    <form action="/birds">
+        <input type="checkbox" id="agree" name="agreed" checked>
+        <label for="agree">I agree to what you are saying</label>
+        <P>
+            <label for="s">Small</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">Medium</label>
+            <input type="radio" name="size" id="m" value="m">
+            <label for="l">Large</label>
+            <input type="radio" name="size" id="l" value="l">
+        </P>
+        <!-- Radio Buttons
+        
+        Can only select one
+    
+        -->
+        <button>Submit</button>
+
+    </form>
+
+    <form action="/range">
+        <label for="slider">Amount of Cheese</label>
+        <input type="range" id="slider" min=2 max=10 name="cheeselevel" step=7>
+
+        <textarea name="texttest" id="textarea" name="para" cols="30" rows="10"></textarea>
+        <button></button>
+
+
     </form>
 
 </body>
