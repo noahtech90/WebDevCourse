@@ -56,8 +56,15 @@
 
         <textarea name="texttest" id="textarea" name="para" cols="30" rows="10"></textarea>
         <button></button>
+    </form>
 
+    <form action="/dummy">
+        <label for="first">First Name</label>
+        <input type="text" id="first" required>
 
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" minlength="22" required>
+        <button>Submit</button>
     </form>
 
 </body>
@@ -80,5 +87,16 @@ this would send through form as form action + name=(your data)
 
 -->
 
+
+<!-- Validation:
+
+    Contraints added to form, ensures data meets a certain specification
+    
+    Built in Browser Validation:
+
+    required, minlength, maxlength, min, max
+
+
+-->
 
 </html>
