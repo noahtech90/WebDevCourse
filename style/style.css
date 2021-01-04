@@ -4,12 +4,14 @@ h1 {
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px black;
+    text-decoration: red underline dotted;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     width: 100%;
+    background-color: blanchedalmond;
 }
 
 .item {
