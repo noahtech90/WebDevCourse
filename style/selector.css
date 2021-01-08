@@ -1,0 +1,11 @@
+* {
+    background-color: lightgoldenrodyellow;
+}
+
+h1, h2 {
+    font-size: 20px;
+}
+
+section {
+    outline: solid blue;
+}
