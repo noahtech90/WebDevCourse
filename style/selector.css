@@ -7,5 +7,6 @@ h1, h2 {
 }
 
 section {
+    padding: 25px;
     outline: solid blue;
 }
