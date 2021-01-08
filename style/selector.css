@@ -10,3 +10,7 @@ section {
     padding: 25px;
     outline: solid blue;
 }
+
+section p {
+    color: red;
+}
