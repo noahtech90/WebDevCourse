@@ -1,12 +1,11 @@
 .blog-post {
     width: 90%;
     background-color: cadetblue;
-    padding: 20px;
+    opacity: .5;
+    padding: 50px;
 }
 
-input {
-    width: 75%;
-    height: 200px;
+textarea {
     display: block;
     margin: auto;
 }
