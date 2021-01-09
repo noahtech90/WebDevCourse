@@ -5,6 +5,7 @@
     width: 200px;
     background-color: #f1f1f1;
     border: 1px solid #555;
+    display: inline-block;
 }
 
 .main-nav li {
@@ -26,6 +27,7 @@
     float: right;
     list-style-type: none;
     border: 1px solid #555;
+    display: inline-block;
 }
 
 .second-nav li {

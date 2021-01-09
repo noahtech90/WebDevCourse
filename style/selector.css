@@ -14,3 +14,7 @@ section {
 section p {
     color: red;
 }
+
+button + p {
+    background-color: lightgreen;
+}
