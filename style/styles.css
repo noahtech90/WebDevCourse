@@ -1,19 +1,27 @@
-.blog-post {
-    width: 90%;
-    background-color: cadetblue;
-    opacity: .5;
-    padding: 50px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-textarea {
-    display: block;
-    margin: auto;
+
+.main-nav {
+    margin: none;
+    padding: none;
 }
 
-.blog-post button {
-    float: right;
-    width: 70px;
-    padding: 10px;
-    margin-top: .4rem;
-    margin-right: 13%;
+.main-nav ul {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding-bottom: 20px;
+    margin: none;
+    padding: none;
+}
+
+li {
+    text-align: center;
+    width: 15%;
+    margin-right: 20px;
+    list-style: none;
+    background-color: lightgreen;
 }
