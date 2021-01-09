@@ -18,3 +18,11 @@ section p {
 button + p {
     background-color: lightgreen;
 }
+
+section > h2 {
+    color: green;
+}
+
+input[type='text'] {
+    background-color: red;
+}
