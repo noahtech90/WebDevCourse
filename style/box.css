@@ -1,12 +1,13 @@
 h1 {
     width: 120px;
-    background: pink;
+  background-color: pink;
 }
 
 
 div {
-    width: 200px;
+    width: 300px;
     height: 200px;
+    border-radius: 50%;
     background: #559911;
 }
 
@@ -15,12 +16,17 @@ div {
     border-width: 5px;
     border-color: black;
     border-style: solid;
+
+    box-sizing: border-box;
 }
 
 #two {
     background-color: purple;
+    border: 5px black dashed;
 }
 
 #three {
-    background-color: #559911
+    background-color: #559911;
+    border: crimson 10px groove;
+    box-sizing: border-box;
 }
