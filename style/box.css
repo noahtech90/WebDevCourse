@@ -31,3 +31,7 @@ div {
     border: crimson 10px groove;
     box-sizing: border-box;
 }
+
+button {
+    padding: 10px 0px 10px 15px
+}
