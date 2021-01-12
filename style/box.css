@@ -1,5 +1,6 @@
 h1 {
     width: 120px;
+    background: pink;
 }
 
 
@@ -7,4 +8,19 @@ div {
     width: 200px;
     height: 200px;
     background: #559911;
+}
+
+#one {
+    background-color: blue;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+#two {
+    background-color: purple;
+}
+
+#three {
+    background-color: #559911
 }
