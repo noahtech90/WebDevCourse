@@ -19,3 +19,21 @@ span {
     border: solid blue 2px;
     height: 100px;
 }
+
+section {
+    background-color: #661155;
+    width: 600px;
+    height: 600px;
+}
+
+div {
+    width: 50%;
+    background-color: salmon;
+    height: 50%;
+}
+
+h1 {
+    border: solid black 2px;
+    line-height: 50%;
+
+}
