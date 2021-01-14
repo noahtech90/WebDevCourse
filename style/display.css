@@ -1,10 +1,21 @@
-h1 {
-    background: blanchedalmond;
-    border: solid black 2px;
-    display: inline;
+body {
+    padding: 0px;
+    margin: 0px;
 }
 
 span {
-    background: red;
+    /*background: red; */
     border: solid black 2px;
+    padding: 50px;
+    width: 200px;
+    display: block;
+}
+
+.box {
+    display: inline;
+    padding: 30px;
+    background-color: red;
+    width: 24%;
+    border: solid blue 2px;
+    height: 100px;
 }
