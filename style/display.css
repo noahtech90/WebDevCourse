@@ -1,0 +1,10 @@
+h1 {
+    background: blanchedalmond;
+    border: solid black 2px;
+    display: inline;
+}
+
+span {
+    background: red;
+    border: solid black 2px;
+}
