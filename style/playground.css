@@ -11,10 +11,15 @@
     margin-bottom: 20px;
 }
 
+.inner-content {
+    width: 95%;
+    margin: auto;
+}
+
 .box {
     display: inline-block;
     margin: 20px;
-    width: 40%;
+    width: 43%;
     height: 300px;
     border: solid 2px black;
 }
