@@ -1,39 +1,7 @@
-body {
-    padding: 0px;
-    margin: 0px;
+article p {
+    font-size: 3em;
 }
 
-span {
-    /*background: red; */
-    border: solid black 2px;
-    padding: 50px;
-    width: 200px;
-    display: block;
-}
-
-.box {
-    display: inline;
-    padding: 30px;
-    background-color: red;
-    width: 24%;
-    border: solid blue 2px;
-    height: 100px;
-}
-
-section {
-    background-color: #661155;
-    width: 600px;
-    height: 600px;
-}
-
-div {
-    width: 50%;
-    background-color: salmon;
-    height: 50%;
-}
-
-h1 {
-    border: solid black 2px;
-    line-height: 50%;
-
+article {
+    font-size: 10px;
 }
