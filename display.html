@@ -19,8 +19,49 @@
             sint.Excepturi magnam recusandae, molestias, commodi temporibus illo nostrum eaque nobis possimus odit sed.
             Culpa quasi debitis esse fugit itaque, dolore perferendis provident ullam necessitatibus iusto, saepe quis
             fuga, atque commodi!</p>
+        <ul>
+            <li>Pasta</li>
+            <ul>
+                <li>Ravioli</li>
+                <ul>
+                    <li>Spinach Ricotta</li>
+                </ul>
+                <li>Pene</li>
+            </ul>
+            <li>Burger</li>
+            <li>Sandwich</li>
+            <li>Vegetavkes</li>
+        </ul>
     </article>
 
+    <div class="rems">
+
+        <article>
+            <h2>I am h2</h2>
+            <button>Click Me</button>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi incidunt minus dolore est cumque
+                commodi
+                aliquam, eos ratione in, libero quasi alias, voluptas perferendis ea earum. Earum voluptate quas
+                sint.Excepturi magnam recusandae, molestias, commodi temporibus illo nostrum eaque nobis possimus odit
+                sed.
+                Culpa quasi debitis esse fugit itaque, dolore perferendis provident ullam necessitatibus iusto, saepe
+                quis
+                fuga, atque commodi!</p>
+            <ul>
+                <li>Pasta</li>
+                <ul>
+                    <li>Ravioli</li>
+                    <ul>
+                        <li>Spinach Ricotta</li>
+                    </ul>
+                    <li>Pene</li>
+                </ul>
+                <li>Burger</li>
+                <li>Sandwich</li>
+                <li>Vegetavkes</li>
+            </ul>
+        </article>
+    </div>
 
 </body>
 
@@ -34,10 +75,15 @@
         - Percentage: Percentage of parent or percentage of element itself
 
         - ems: Relative units, what it is relative to depends on the property
+            scale as font size changes
 
             i. for font size it a mutliplier vs the parent
             ii. For padding or margin, 1em is not equal to parent, it is equal toelement itself
             iii. Really useful when you want your button or some other element to scale with parent element
+
+            ** Nested ems will shrink or grow a ton because of their parent dependence
+
+        - rems: Root EMS, relative to root html element, gets rid of the multiplicative issue
  -->
 
 </html>

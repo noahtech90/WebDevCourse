@@ -1,6 +1,6 @@
 article p {
-    font-size: 3em;
-    padding: 2em;
+    font-size: 1.2em;
+    padding: 1em;
 }
 
 article {
@@ -12,4 +12,20 @@ button {
     padding: 0, 1em;
     border-radius: .5em;
     background-color: darkseagreen;
+}
+
+ul {
+    font-size: 1.5em;
+}
+
+.rems article {
+    font-size: 2rem;
+}
+
+.rems {
+    font-size: 1rem;
+}
+
+.rems ul {
+    font-size: 1rem;
 }
