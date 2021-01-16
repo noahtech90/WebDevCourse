@@ -1,3 +1,12 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 22px;
+}
+
 .banner {
     background-color: #686868;
     padding: 2rem 0rem;
@@ -9,7 +18,7 @@
 
 
 .inner-strip {
-    background-color: blanchedalmond;
+    background-color: rgb(209, 200, 185);
     text-align: center;
     border-radius: 2em;
 }
