@@ -1,7 +1,15 @@
 article p {
     font-size: 3em;
+    padding: 2em;
 }
 
 article {
-    font-size: 10px;
+    font-size: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 0, 1em;
+    border-radius: .5em;
+    background-color: darkseagreen;
 }
