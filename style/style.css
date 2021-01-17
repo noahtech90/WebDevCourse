@@ -1,26 +1,36 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
-    font-size: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h2 {
+    font: helvetica;
+    color: rgb(10, 131, 10);
+    font-size: 36px;
 }
 
 .banner {
-    background-color: #686868;
+    background-color: #41B3A3;
     padding: 2rem 0rem;
     position: fixed;
-    border-radius: 2em;
-    top: 20%;
-    margin: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: .5em;
 }
 
 
 .inner-strip {
-    background-color: rgb(209, 200, 185);
+    background-color: #E8A87C;
     text-align: center;
-    border-radius: 2em;
+    /* border-radius: 1em; */
 }
 
 .inner-strip p, h1{
@@ -29,12 +39,3 @@ h1 {
     margin: auto;
 }
 
-@media screen and (min-width: 650px) {
-    .banner {
-        width: 60%;
-        margin: auto;
-        position: relative;
-        top: 50%;
-
-    }
-}
