@@ -10,3 +10,21 @@ div {
 #middle {
     background-color: yellowgreen;
 }
+
+#static #middle {
+
+    position: static;
+    top: 20px;
+}
+
+#relative #middle {
+    position: relative;
+    top: 2rem;
+    right: 5%;
+}
+
+#absolute #middle {
+    position: absolute;
+    top: 65%;
+    left: 30%;
+}
