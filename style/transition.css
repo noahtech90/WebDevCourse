@@ -1,0 +1,11 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: tan;
+}
+
+.circle:hover {
+    transition: 2s;
+    background-color: teal;
+    border-radius: 50%;
+}
