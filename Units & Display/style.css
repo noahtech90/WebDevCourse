@@ -13,6 +13,7 @@ h1 {
     margin: 0px;
     padding: 10px;
     background-color: darkgrey;
+    color: floralwhite;
     position: fixed;
     text-align: center;
     top: 0px;
@@ -23,7 +24,7 @@ h1 {
 
 h2 {
     font: helvetica;
-    color: rgb(106, 146, 106);
+    color: black;
     font-size: 36px;
 }
 
