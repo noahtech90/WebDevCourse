@@ -48,29 +48,17 @@ img {
     width: 100%;
 }
 
-.photo-link:hover {
-    transform: translateY(-10px);
-    transition: .7s;
-    border-bottom: 2px solid lightgray;
-    box-shadow: 0em .5em .5em -0.4em #47417a;
-    
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
 }
 
-@media screen and (max-width: 670px) {
-    .photo-link {
-
-        width: 45%;
-        margin: 2.25%;
-        height: 480px;
-    }
-    
-  }
-
-  @media screen and (max-width: 370px) {
-    .photo-link {
-        width: 90%;
-        margin: 4.5%;
-
-    }
-    
-  }
