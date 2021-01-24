@@ -1,0 +1,76 @@
+body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#descript {
+    display: block;
+    color: white;
+    font-style: italic;
+}
+
+.header {
+    background-color: rgb(106, 182, 106);
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 6px;
+    margin: 2px;
+}
+
+h1 {
+    font-family: 'Roboto';
+    padding-left: 5%;
+    color: rgb(236, 234, 225);
+}
+
+h2 {
+    font-family: 'Open Sans';
+    padding-left: 6%;
+}
+
+p {
+    font-family: 'Noto Sans JP';
+    padding-left: 4px;
+}
+
+.photo-link {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 530px;
+    margin: 1.45%;
+    transition: .7s;
+}
+
+img {
+    width: 100%;
+}
+
+.photo-link:hover {
+    transform: translateY(-10px);
+    transition: .7s;
+    border-bottom: 2px solid lightgray;
+    box-shadow: 0em .5em .5em -0.4em #47417a;
+    
+}
+
+@media screen and (max-width: 670px) {
+    .photo-link {
+
+        width: 45%;
+        margin: 2.25%;
+        height: 480px;
+    }
+    
+  }
+
+  @media screen and (max-width: 370px) {
+    .photo-link {
+        width: 90%;
+        margin: 4.5%;
+
+    }
+    
+  }
