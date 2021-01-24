@@ -40,7 +40,7 @@ p {
     vertical-align: top;
     width: 30%;
     height: 530px;
-    margin: 1.2%;
+    margin: 1.45%;
     transition: .7s;
 }
 
@@ -60,6 +60,7 @@ img {
     .photo-link {
 
         width: 45%;
+        margin: 2.25%;
         height: 480px;
     }
     
@@ -68,6 +69,7 @@ img {
   @media screen and (max-width: 370px) {
     .photo-link {
         width: 90%;
+        margin: 4.5%;
 
     }
     
