@@ -1,20 +1,25 @@
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 500px;
     width: 90%;
     margin: auto;
     min-width: 500px;
     max-height: 400px;
+    text-align: center;
+    align-items: center;
 }
 
 .sidenav {
-    background-color: rebeccapurple;
     flex-basis: 200px;
+    background-color: pink;
+
+
 }
 
 .main {
-    background-color: salmon;
-    flex-basis: 600px;
+    flex: 2 1 400px;
+    background-color: green;
+
 }
