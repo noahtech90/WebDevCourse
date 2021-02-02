@@ -42,6 +42,13 @@ main {
     display: flex;
 }
 
-main .siderbar {
+main .sidebar {
     background-color: purple;
+    border: 2px white;
+    flex: 1 2 300px;
+}
+
+main .maincontent {
+    background-color: lightgreen;
+    flex: 2 800px;
 }
