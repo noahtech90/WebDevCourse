@@ -52,3 +52,9 @@ main .maincontent {
     background-color: lightgreen;
     flex: 2 800px;
 }
+
+@media (min-width: 900px) {
+    body {
+        font-size: 68em;
+    }
+}
