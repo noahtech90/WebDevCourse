@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 800px;
+    background-color: green;
+}
+
+.title {
+    align-self: center;
+    text-align: center;
+}
