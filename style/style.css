@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    flex-direction: column;
     width: 90%;
     margin: auto;
     height: 800px;
@@ -7,6 +8,23 @@
 }
 
 .title {
+    background-color: greenyellow;
     align-self: center;
-    text-align: center;
+}
+
+.btns {
+    background-color: grey;
+    align-self: center;
+    margin-top: 2rem;
+
+}
+
+.btns button {
+    padding: 15px;
+}
+
+.make-happen {
+    margin-top: 350px;
+    background-color: khaki;
+    height: 200px;
 }

@@ -5,5 +5,5 @@ function letGo() {
 
 function makeText() {
     let myText = document.querySelector(".make-happen p")
-    myText
+    myText.innerHTML = "you just made some text my guy!"
 }
