@@ -5,10 +5,10 @@ function letGo() {
 
 function makeText() {
     let myText = document.querySelector(".make-happen p")
-    myText.innerHTML = "   you just made some text my guy!".bold().toUpperCase()
+    myText.innerHTML = Math.floor(Math.random() * 10) + 1
 }
 
 function findText() {
     let myText = document.querySelector(".make-happen p")
-    myText.innerHTML = "   you just made some text my guy!".slice(-9).toUpperCase().replace("GUY", "gal").repeat(4)
+    myText.innerHTML = "   you just made some text my guy!".slice(-9).toUpperCase().replace("GUY", "gal").repeat(4).trim()
 }
