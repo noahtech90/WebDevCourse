@@ -10,5 +10,5 @@ function makeText() {
 
 function findText() {
     let myText = document.querySelector(".make-happen p")
-    myText.innerHTML = "   you just made some text my guy!".indexOf("z")
+    myText.innerHTML = "   you just made some text my guy!".slice(-9).toUpperCase().replace("GUY", "gal")
 }
