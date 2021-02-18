@@ -5,7 +5,10 @@ function letGo() {
 
 function makeText() {
     let myText = document.querySelector(".make-happen p")
-    console.log(typeof myText.innerHTML)
     myText.innerHTML = "   you just made some text my guy!".bold().toUpperCase()
+}
 
+function findText() {
+    let myText = document.querySelector(".make-happen p")
+    myText.innerHTML = "   you just made some text my guy!".indexOf("z")
 }
