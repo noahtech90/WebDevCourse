@@ -1,14 +1,9 @@
-function letGo() {
-    let myDiv = document.querySelector(".make-happen")
-    myDiv.style.backgroundColor = "blue"
+function kingdom() {
+    let story = document.querySelector("#story")
+    story.innerHTML = "You went to the kingdom"
 }
 
-function makeText() {
-    let myText = document.querySelector(".make-happen p")
-    myText.innerHTML = Math.floor(Math.random() * 10) + 1
-}
-
-function findText() {
-    let myText = document.querySelector(".make-happen p")
-    myText.innerHTML = "   you just made some text my guy!".slice(-9).toUpperCase().replace("GUY", "gal").repeat(4).trim()
+function forest() {
+    let story = document.querySelector("#story")
+    story.innerHTML = "You went to the forest"
 }
