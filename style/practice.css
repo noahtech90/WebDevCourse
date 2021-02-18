@@ -1,0 +1,24 @@
+.title {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    transition: .5s;
+}
+
+
+
+.title:hover {
+    transform: translateY(-5px);
+    transition: .5s;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+}
+
+.btn-holder button {
+    padding: 10px;
+}
