@@ -8,8 +8,11 @@
 }
 
 .title {
-    background-color: greenyellow;
+    background-color: rgb(195, 207, 176);
     align-self: center;
+    border-radius: 5px;
+    width: 90%;
+    text-align: center;
 }
 
 .btns {
