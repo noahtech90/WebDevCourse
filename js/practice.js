@@ -1,14 +1,11 @@
 
 function defineVariables() {
+    let story = document.querySelector("#story");
+    let storyImg = document.querySelector("#story-img");
 
-    storyChange = {
-
-        story = document.querySelector("#story"),
-        storyImg = document.querySelector("#story-img"),
-        btn1 = document.querySelector("#choiceA"),
-        btn2 = document.querySelector("#choiceB"),
-    }
-
+    let btn1 = document.querySelector("#choiceA");
+    let btn2 = document.querySelector("#choiceB");
+    storyChange = [story, storyImg, btn1, btn2]
     return storyChange
 
 
@@ -21,7 +18,7 @@ function kingdom() {
     storyChange[0].innerHTML = "You went to the kingdom";
     storyChange[1].src = "../img/kingdom.jfif";
     storyChange[2].innerHtml = "Enter your room";
-    console.log(typeof storyChange[3])
+    storyChange[3].innerHtml = "Enter your room";
 }
 
 function forest() {
