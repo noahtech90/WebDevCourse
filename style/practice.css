@@ -1,5 +1,7 @@
 .title {
-    font-size: 2em;
+    font-size: 1.8em;
+    display: block;
+    width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     transition: .5s;
@@ -30,6 +32,8 @@
 #story {
     text-align: center;
     margin-top: 3rem;
+    font-size: large;
+    padding: 20px;
 }
 
 .story-img {
