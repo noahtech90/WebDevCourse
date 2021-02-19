@@ -1,15 +1,31 @@
+
+function defineVariables() {
+
+    storyChange = {
+
+        story = document.querySelector("#story"),
+        storyImg = document.querySelector("#story-img"),
+        btn1 = document.querySelector("#choiceA"),
+        btn2 = document.querySelector("#choiceB"),
+    }
+
+    return storyChange
+
+
+}
+
 function kingdom() {
-    let story = document.querySelector("#story")
-    let storyImg = document.querySelector("#story-img")
-    let btn1 = document.querySelector(".btn"[0])
-    let btn2 = document.querySelector(".btn"[1])
-    story.innerHTML = "You went to the kingdom"
-    storyImg.src = "../img/kingdom.jfif"
+
+    // Adjust Settings
+    storyChange = defineVariables()
+    storyChange[0].innerHTML = "You went to the kingdom";
+    storyChange[1].src = "../img/kingdom.jfif";
+    storyChange[2].innerHtml = "Enter your room";
+    console.log(typeof storyChange[3])
 }
 
 function forest() {
-    let story = document.querySelector("#story")
-    let storyImg = document.querySelector("#story-img")
-    story.innerHTML = "You went to the forest"
-    storyImg.src = "../img/forest.jfif"
+    storyChange = defineVariables()
+    storyChange[0].innerHTML = "You went to the forest"
+    storyChange[1].src = "../img/forest.jfif"
 }
