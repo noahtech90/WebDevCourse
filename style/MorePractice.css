@@ -38,12 +38,31 @@ body, html, ul {
 }
 
 .container {
-    width: 100%;
+    width: 90%;
     margin: auto;
+    text-align: center;
+}
+
+.carousel {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: 310px;
+    overflow-x: auto;
+}
+
+.photo {
+    margin: 10px;
+        transition: transform .8s;
+}
+
+.photo:hover {
+    transform: translateY(-10px);
+    transition: transform .8s;
 }
 
 img {
     display: block;
-    height: 300px;
+    height: 280px;
     margin: auto;
 }
