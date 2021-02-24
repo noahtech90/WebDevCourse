@@ -1,18 +1,14 @@
 body, html, ul {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
-
-
-
 
 .top-nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: blanchedalmond;
-    padding: 10px;
+    background-color: rgb(235, 209, 170);
 }
 
 .nav-list {
@@ -24,3 +20,30 @@ body, html, ul {
     font-family: sans-serif;
 }
 
+.nav-list-item {
+    padding: 10px;
+}
+
+.nav-list-item:hover {
+    background-color: rgb(219, 193, 150);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+img {
+    display: block;
+    height: 300px;
+    margin: auto;
+}
