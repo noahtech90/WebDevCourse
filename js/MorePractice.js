@@ -30,6 +30,6 @@ function treeArt() {
     let header = document.getElementById("art-header");
     let para = document.getElementById("art-descript");
 
-    header.innerHTML = "Turtle Art"
-    para.innerHTML = "This is a photo of a turtle"
+    header.innerHTML = "Tree Art"
+    para.innerHTML = "This is a photo of a tree"
 }
