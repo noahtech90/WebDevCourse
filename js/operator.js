@@ -4,4 +4,5 @@ let z = Math.floor(Math.random() * 255);
 
 document.body.style.backgroundColor = `rgb(${x}, ${y}, ${z})`
 
-const myArray = ['red', 'blue', 'green']
+let myArray = ['red', 'blue', 'green'];
+myArray[88] = 'purple';
