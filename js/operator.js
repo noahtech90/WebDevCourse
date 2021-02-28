@@ -4,7 +4,7 @@ let z = Math.floor(Math.random() * 255);
 
 document.body.style.backgroundColor = `rgb(${x}, ${y}, ${z})`
 
-let firstName = prompt("enter your first name");
-if (!firstName) {
+let age = parseInt(prompt("enter your first age"));
+if (!age) {
     firstName = prompt("try again");
 }
