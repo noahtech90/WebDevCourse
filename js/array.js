@@ -6,5 +6,5 @@ document.body.style.backgroundColor = `rgb(${x}, ${y}, ${z})`
 
 let todo = ["hello", 2, 5, 'todo'];
 let todoTwo = ["arrays are kinda boring"]
-alert(todo.concat(todoTwo))
+alert(todo.slice(2))
 
