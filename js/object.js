@@ -11,8 +11,15 @@ const road = {
 
 if (person.totalMiles < 1000) {
     road.person = true
-}
+};
 
-console.log(road)
+const midterms = {
+    danielle: 96,
+    thomas: 78
+};
+
+midterms['danielle'] = 99;
+midterms['tony'] = 50
+console.log(midterms)
 
 
