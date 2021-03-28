@@ -1,4 +1,6 @@
-for (i = 0; i++; i < 10) {
-    console.log(i)
+for (i = 100; i >= 0; i--) {
+    if (i % 2 != 0) {
+        console.log(i)
+    }
 }
 
