@@ -10,3 +10,9 @@ for (i = 0; i < seatingChart.length; i++) {
         console.log(`Person ${row[j]} `)
     }
 }
+
+count = 0;
+while (count <= 10) {
+    console.log(count);
+    count++;
+}
