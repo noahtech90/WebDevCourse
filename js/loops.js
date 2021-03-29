@@ -1,7 +1,12 @@
-const animals = ['lions', 'tigers', 'bears'];
+const seatingChart = [
+    ['Mark', 'Eric', 'Candance'],
+    ['Sarah', 'Tony', 'Becaa']
+]
 
-for (let i = 0; i < animals.length; i++) {
-    for (let j = 0; j < 10; j++) {
-        console.log(animals[i], j)
+for (i = 0; i < seatingChart.length; i++) {
+    const row = seatingChart[i]
+    console.log(`Row ${i} `)
+    for (j = 0; j < row.length; j++) {
+        console.log(`Person ${row[j]} `)
     }
 }
