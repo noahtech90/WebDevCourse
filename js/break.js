@@ -1,7 +1,8 @@
 let input = prompt("Say something");
 while (true) {
-    input = promt(input);
+    input = prompt(input);
     if (input.toLowerCase() === "stop") {
+        console.log("you win")
         break;
     }
 }
